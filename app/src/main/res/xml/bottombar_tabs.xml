@@ -1,0 +1,22 @@
+<tabs>
+    <tab
+        id="@+id/nav_home"
+        icon="@drawable/icon_home_color"
+        title="home" />
+    <tab
+        id="@+id/nav_section"
+        icon="@drawable/icon_section_color"
+        title="section" />
+    <tab
+        id="@+id/nav_eing"
+        icon="@drawable/icon_eing_color"
+        title="eing" />
+    <tab
+        id="@+id/nav_shopcar"
+        icon="@drawable/icon_shopcar_color"
+        title="shopcar" />
+    <tab
+        id="@+id/nav_user"
+        icon="@drawable/icon_user_color"
+        title="user" />
+</tabs>
