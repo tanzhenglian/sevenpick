@@ -48,7 +48,7 @@ public abstract class BaseFragment extends Fragment {
         if (parent != null) {
             parent.removeView( rootView );
         }
-        unbinder=ButterKnife.bind( this, rootView );
+        //unbinder=ButterKnife.bind( this, rootView );
         return rootView;
     }
 
@@ -69,7 +69,7 @@ public abstract class BaseFragment extends Fragment {
     @Override
     public void onDestroyView() {
         super.onDestroyView();
-        unbinder.unbind();
+        //unbinder.unbind();
         unsubscribe();
     }
 

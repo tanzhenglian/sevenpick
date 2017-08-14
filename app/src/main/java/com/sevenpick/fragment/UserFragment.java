@@ -7,15 +7,15 @@ import android.widget.Button;
 
 import com.sevenpick.R;
 import com.sevenpick.framework.BaseFragment;
+import com.tencent.bugly.beta.Beta;
 
 import butterknife.BindView;
-import io.reactivex.annotations.Beta;
 
 
 public class UserFragment extends BaseFragment {
 
-    @BindView(R.id.check_version)
-    Button btn;
+    @BindView(R.id.checkUpdate_btn)
+    Button button;
 
     @Override
     protected int getLayoutResource() {
@@ -25,11 +25,10 @@ public class UserFragment extends BaseFragment {
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-
-
-        btn.setOnClickListener(new View.OnClickListener() {
+        button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Beta.checkUpgrade();
             }
         });
     }

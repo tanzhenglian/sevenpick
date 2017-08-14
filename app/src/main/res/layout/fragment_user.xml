@@ -5,13 +5,16 @@
     tools:context="com.sevenpick.fragment.UserFragment">
 
     <!-- TODO: Update blank fragment layout -->
+    <!--
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:text="user_fragment" />
+     -->
+
     <Button
-        android:id="@+id/check_version"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="检查更新"/>
+        android:id="@+id/checkUpdate_btn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="检查更新" />
 </FrameLayout>
