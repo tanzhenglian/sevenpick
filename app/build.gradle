@@ -52,16 +52,25 @@ dependencies {
     compile 'com.android.support:support-v4:25.3.0'
     compile 'com.android.support:recyclerview-v7:25.3.0'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
-    compile 'com.roughike:bottom-bar:2.3.1'
-
     testCompile 'junit:junit:4.12'
+    //bottom-bar
+    compile 'com.roughike:bottom-bar:2.3.1'
+    //butterknife
     compile 'com.jakewharton:butterknife:8.7.0'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.7.0'
-
+    //superadapter
     compile 'org.byteam.superadapter:superadapter:3.6.7'
-    compile "io.reactivex.rxjava2:rxjava:2.1.2"
-
+    //rxjava
+    compile 'io.reactivex.rxjava2:rxjava:2.1.2'
+    //rxAndroid
+    compile 'io.reactivex.rxjava2:rxandroid:2.0.1'
+    //bugly
     compile "com.android.support:multidex:1.0.1"
     compile 'com.tencent.bugly:crashreport_upgrade:latest.release'
     compile 'com.tencent.bugly:nativecrashreport:latest.release'
+    // Glide for image loader
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'jp.wasabeef:glide-transformations:2.0.1'
+    // Android-Iconics
+    compile "com.mikepenz:iconics-core:2.9.1@aar"
 }

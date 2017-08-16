@@ -1,4 +1,4 @@
-package com.sevenpick.framework;
+package com.sevenpick.ui.base;
 
 import android.content.Context;
 import android.support.annotation.LayoutRes;

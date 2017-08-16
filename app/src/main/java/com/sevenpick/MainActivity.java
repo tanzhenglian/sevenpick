@@ -8,12 +8,12 @@ import android.os.Bundle;
 
 import com.roughike.bottombar.BottomBar;
 import com.roughike.bottombar.OnTabSelectListener;
-import com.sevenpick.fragment.EingFragment;
-import com.sevenpick.fragment.HomeFragment;
-import com.sevenpick.fragment.SectionFragment;
-import com.sevenpick.fragment.ShopCarFragment;
-import com.sevenpick.fragment.UserFragment;
-import com.sevenpick.framework.BaseActivity;
+import com.sevenpick.ui.base.BaseActivity;
+import com.sevenpick.ui.fragment.EingFragment;
+import com.sevenpick.ui.fragment.HomeFragment;
+import com.sevenpick.ui.fragment.SectionFragment;
+import com.sevenpick.ui.fragment.ShopCarFragment;
+import com.sevenpick.ui.fragment.UserFragment;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

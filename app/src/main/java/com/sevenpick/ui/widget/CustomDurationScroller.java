@@ -1,4 +1,4 @@
-package com.sevenpick.widget;
+package com.sevenpick.ui.widget;
 
 import android.content.Context;
 import android.view.animation.Interpolator;

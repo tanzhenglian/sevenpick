@@ -1,4 +1,4 @@
-package com.sevenpick.framework;
+package com.sevenpick.ui.base;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -26,7 +26,6 @@ public abstract class BaseFragment extends Fragment {
 
     protected View rootView;
     private BaseActivity holder;
-    protected Subscription subscription;
     private Unbinder unbinder;
 
     @Override
@@ -70,14 +69,6 @@ public abstract class BaseFragment extends Fragment {
     public void onDestroyView() {
         super.onDestroyView();
         unbinder.unbind();
-        unsubscribe();
-    }
-
-    protected void unsubscribe() {
-        if (subscription != null) {
-            subscription.cancel();
-            subscription = null;
-        }
     }
 
     protected void showToast(String str) {
