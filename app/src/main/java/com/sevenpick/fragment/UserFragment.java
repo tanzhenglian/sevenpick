@@ -6,7 +6,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.sevenpick.R;
-import com.sevenpick.framework.BaseFragment;
+import com.sevenpick.ui.base.BaseFragment;
 import com.tencent.bugly.beta.Beta;
 
 import butterknife.BindView;

@@ -4,7 +4,7 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 
 import com.sevenpick.R;
-import com.sevenpick.framework.BaseFragment;
+import com.sevenpick.ui.base.BaseFragment;
 
 public class ShopCarFragment extends BaseFragment {
     @Override

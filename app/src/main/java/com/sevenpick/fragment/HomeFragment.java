@@ -4,9 +4,9 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 
 import com.sevenpick.R;
-import com.sevenpick.adapter.AdvertImagePagerAdapter;
-import com.sevenpick.framework.BaseFragment;
-import com.sevenpick.widget.AutoScrollViewPager;
+import com.sevenpick.ui.adapter.AdvertImagePagerAdapter;
+import com.sevenpick.ui.base.BaseFragment;
+import com.sevenpick.ui.widget.AutoScrollViewPager;
 
 import java.util.ArrayList;
 import java.util.List;
